@@ -2,7 +2,7 @@
 
 @section('content')
 
-            <form action="{{ route('salvar_livro') }}" method="post">
+            <form action="{{route('salvar_livro')}}" method="post">
             @csrf 
             <div><label for="isbn">ISBN</label><input type="text" name="isbn" id="isbn"></div>
             <div><label for="nome">Nome</label><input type="text" name="nome" id="nome"></div>
